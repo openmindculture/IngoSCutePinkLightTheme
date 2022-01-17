@@ -1,0 +1,23 @@
+{
+    "name": "ingo-s/ingo-s-cutepinklighttheme",
+    "description": "Ingo's Cute Pink Light Theme for Shopware 6",
+    "version": "0.0.1",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IngoSFraktalistheme\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "6.*",
+        "shopware/administration": "6.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "IngoSCutePinkLightTheme\\IngoSCutePinkLightTheme",
+        "label": {
+            "de-DE": "Theme IngoSCutePinkLightTheme plugin",
+            "en-GB": "Theme IngoSCutePinkLightTheme plugin"
+        }
+    }
+}
